@@ -33,8 +33,8 @@ yarn install
 Rename the `.env-template` file to `.env` and add your variables
 
 ```
-REACT_APP_STSAUTHORITY=https://<<provider-id>
-REACT_APP_CLIENTID=<client-id>
+REACT_APP_STSAUTHORITY=http://54.180.202.19:8180/auth/realms/vc-authn
+REACT_APP_CLIENTID=oidc-client-react
 REACT_APP_CLIENTROOT=https://localhost:3000/
 REACT_APP_CLIENTSCOPE='profile vc_authn'
 ```
